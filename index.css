@@ -607,6 +607,18 @@ span {
         width: 82%;
     }
 }
+.widget {
+    border-radius: 32px;
+    background-color: var(--bg-color);
+    padding: 16px;
+    max-width: 600px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.widget canvas {
+    min-height: 280px;
+}
 /* skills end */
 /* project start */
 * {
